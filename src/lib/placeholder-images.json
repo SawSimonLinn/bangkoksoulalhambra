@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-thai-food",
+      "description": "Authentic Thai food spread on a rustic wooden table",
+      "imageUrl": "https://images.unsplash.com/photo-1765872663169-24edf4a16f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0aGFpJTIwZm9vZCUyMHRhYmxlfGVufDB8fHx8MTc3MjIzNTg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thai food table"
+    },
+    {
+      "id": "dish-braised-pork-leg",
+      "description": "Slow-cooked Bangkok Braised Pork Leg served with rice and soup",
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFpc2VkJTIwcG9ya3xlbnwwfHx8fDE3NzIyNDExMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "braised pork"
+    },
+    {
+      "id": "dish-pad-thai",
+      "description": "Plate of authentic Pad Thai with shrimp and peanuts",
+      "imageUrl": "https://images.unsplash.com/photo-1637806930600-37fa8892069d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYWQlMjB0aGFpfGVufDB8fHx8MTc3MjIzNTg3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pad thai"
+    },
+    {
+      "id": "dish-tom-yum",
+      "description": "Spicy and sour Tom Yum Goong soup in a bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1628428798909-75a2d42a557e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0b20lMjB5dW0lMjBzb3VwfGVufDB8fHx8MTc3MjIzNTg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tom yum soup"
+    },
+    {
+      "id": "dish-green-curry",
+      "description": "Creamy Thai Green Curry with vegetables and chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1640542509430-f529fdfce835?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0aGFpJTIwZ3JlZW4lMjBjdXJyeXxlbnwwfHx8fDE3NzIyMzU4Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thai green curry"
+    },
+    {
+      "id": "dish-mango-sticky-rice",
+      "description": "Mango sticky rice dessert with coconut milk",
+      "imageUrl": "https://images.unsplash.com/photo-1705056508219-0aa0ceb16820?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMHN0aWNreSUyMHJpY2V8ZW58MHx8fHwxNzcyMjM1ODc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango sticky rice"
+    },
+    {
+      "id": "restaurant-interior",
+      "description": "Modern and cozy Thai restaurant interior",
+      "imageUrl": "https://images.unsplash.com/photo-1746114774895-133d5b677db8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0aGFpJTIwcmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fHx8MTc3MjIzNTg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thai restaurant interior"
+    }
+  ]
+}
