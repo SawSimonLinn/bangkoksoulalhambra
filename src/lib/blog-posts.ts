@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     category: "Our Story",
     excerpt:
       "What starts at midnight in our kitchen and ends on your table the next afternoon is more than a dish. It's a ritual passed down through three generations of our family.",
-    image: "https://picsum.photos/seed/pork-leg/1200/600",
+    image: "/imges/khao-kha-moo.png",
     imageHint: "braised pork leg Thai food",
     body: [
       {

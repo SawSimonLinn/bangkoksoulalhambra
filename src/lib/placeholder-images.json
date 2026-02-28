@@ -3,14 +3,14 @@
     {
       "id": "hero-thai-food",
       "description": "Authentic Thai food spread on a rustic wooden table",
-      "imageUrl": "https://images.unsplash.com/photo-1765872663169-24edf4a16f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0aGFpJTIwZm9vZCUyMHRhYmxlfGVufDB8fHx8MTc3MjIzNTg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/imges/hero.png",
       "imageHint": "thai food table"
     },
     {
       "id": "dish-braised-pork-leg",
       "description": "Slow-cooked Bangkok Braised Pork Leg served with rice and soup",
-      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFpc2VkJTIwcG9ya3xlbnwwfHx8fDE3NzIyNDExMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "braised pork"
+      "imageUrl": "/imges/khao-kha-moo.png",
+      "imageHint": "braised pork leg rice"
     },
     {
       "id": "dish-pad-thai",

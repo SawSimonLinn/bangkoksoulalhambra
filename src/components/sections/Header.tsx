@@ -6,7 +6,7 @@ import { Menu, ArrowUpRight, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetHeader, SheetDescription } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetHeader, SheetDescription, SheetClose } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -105,11 +105,17 @@ export function Header() {
                 </SheetTrigger>
                 <SheetContent side="right" className="bg-background border-none w-full sm:w-[350px] p-0">
                   <div className="flex flex-col h-full bg-white">
-                    <SheetHeader className="px-8 py-6 border-b space-y-0">
-                      <div className="flex items-center">
-                        <SheetTitle className="font-headline text-2xl font-bold text-primary text-left">
+                    <SheetHeader className="px-8 py-6 border-b space-y-0 text-left">
+                      <div className="flex items-center justify-between">
+                        <SheetTitle className="font-headline text-2xl font-bold text-primary">
                           bangkok soul.
                         </SheetTitle>
+                        <SheetClose asChild>
+                          <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary h-9 w-9 -mr-1">
+                            <X className="w-5 h-5" />
+                            <span className="sr-only">Close menu</span>
+                          </Button>
+                        </SheetClose>
                       </div>
                       <SheetDescription className="sr-only">
                         Bangkok Soul navigation menu

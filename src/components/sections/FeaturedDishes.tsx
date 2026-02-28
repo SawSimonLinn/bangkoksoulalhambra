@@ -32,28 +32,28 @@ const featured = [
 
 export function FeaturedDishes() {
   return (
-    <section id="featured" className="py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
-          <div className="space-y-4">
+    <section id="featured" className="py-14 md:py-32 bg-white">
+      <div className="max-w-7xl mx-auto px-5 md:px-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 md:mb-20 gap-4 md:gap-8">
+          <div className="space-y-3 md:space-y-4">
             <span className="text-primary font-bold uppercase tracking-[0.2em] text-sm">Chef's Selection</span>
-            <h2 className="font-headline text-5xl font-bold text-foreground">Aesthetic Flavors</h2>
+            <h2 className="font-headline text-3xl md:text-5xl font-bold text-foreground">Aesthetic Flavors</h2>
           </div>
-          <p className="text-muted-foreground text-lg max-w-md font-light italic">
+          <p className="text-muted-foreground text-base md:text-lg max-w-md font-light italic">
             Carefully curated dishes that define the authentic soul of Bangkok street food.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {featured.map((dish, idx) => {
             const imageData = PlaceHolderImages.find(img => img.id === dish.id) || {
               imageUrl: "https://picsum.photos/seed/placeholder/600/800",
               imageHint: "thai dish"
             };
-            
+
             return (
-              <div key={idx} className="group flex flex-col space-y-8 cursor-pointer">
-                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl shadow-md transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1">
+              <div key={idx} className="group flex flex-col space-y-5 md:space-y-8 cursor-pointer">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-2xl transition-all duration-500 group-hover:-translate-y-1">
                   <Image
                     src={imageData.imageUrl}
                     alt={dish.name}
@@ -66,17 +66,17 @@ export function FeaturedDishes() {
                       <ArrowUpRight className="w-8 h-8" />
                     </div>
                   </div>
-                  <Badge className="absolute top-6 left-6 bg-white/90 backdrop-blur-md text-primary border-none px-4 py-1.5 text-xs font-bold uppercase tracking-widest rounded-full">
+                  <Badge className="absolute top-4 left-4 md:top-6 md:left-6 bg-white/90 backdrop-blur-md text-primary border-none px-3 py-1 md:px-4 md:py-1.5 text-xs font-bold uppercase tracking-widest rounded-full">
                     {dish.tag}
                   </Badge>
                 </div>
-                
-                <div className="space-y-4 px-2">
+
+                <div className="space-y-2 md:space-y-4 px-1 md:px-2">
                   <div className="flex justify-between items-baseline">
-                    <h3 className="font-headline text-3xl font-bold group-hover:text-primary transition-colors leading-tight">{dish.name}</h3>
-                    <span className="font-bold text-primary text-xl">{dish.price}</span>
+                    <h3 className="font-headline text-xl md:text-3xl font-bold group-hover:text-primary transition-colors leading-tight">{dish.name}</h3>
+                    <span className="font-bold text-primary text-base md:text-xl">{dish.price}</span>
                   </div>
-                  <p className="text-muted-foreground text-lg leading-relaxed font-light line-clamp-2">
+                  <p className="text-muted-foreground text-sm md:text-lg leading-relaxed font-light line-clamp-2">
                     {dish.description}
                   </p>
                 </div>

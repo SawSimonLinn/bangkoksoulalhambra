@@ -11,22 +11,22 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const reviews = [
   {
-    name: "James L.",
-    role: "Frequent Diner",
-    text: "The pork leg is absolutely legendary. It melts in your mouth and the broth is pure comfort.",
-    avatar: "https://picsum.photos/seed/reviewer1/200/200"
+    name: "Nadia Chuen",
+    role: "Google Review",
+    text: "A hidden gem in Alhambra. The Braised Pork Leg melts in your mouth—you can taste the care in every bite.",
+    avatar: "https://picsum.photos/seed/nadia/200/200"
   },
   {
-    name: "Sarah W.",
-    role: "Local Foodie",
-    text: "Most authentic Thai food in the SGV. The service is warm and the space is so cozy.",
-    avatar: "https://picsum.photos/seed/reviewer2/200/200"
+    name: "Simchelin Guide",
+    role: "Local Guide · 333 Reviews",
+    text: "Really feeds the soul. Service is top notch and the food came out quickly. Highly recommend for Thai food.",
+    avatar: "https://picsum.photos/seed/simchelin/200/200"
   },
   {
-    name: "Michael T.",
-    role: "Dine-in Guest",
-    text: "Incredible depth of flavor in every dish. That 12 hour braised pork is a rare find.",
-    avatar: "https://picsum.photos/seed/reviewer3/200/200"
+    name: "William Fong",
+    role: "Local Guide · 33 Reviews",
+    text: "The fried rice has a strong wok smell making it authentic. Crabmeat was generous for the price. Very worthwhile.",
+    avatar: "https://picsum.photos/seed/williamfong/200/200"
   }
 ];
 
