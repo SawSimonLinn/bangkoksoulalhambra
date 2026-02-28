@@ -48,7 +48,7 @@ export function About() {
 
             <div className="pt-4">
               <Button asChild variant="link" className="p-0 text-primary text-lg font-bold group">
-                <Link href="/about" className="flex items-center gap-2">
+                <Link href="/blog" className="flex items-center gap-2">
                   Read Our Full Story <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
                 </Link>
               </Button>

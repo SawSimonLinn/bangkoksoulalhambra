@@ -63,7 +63,7 @@ export function LocationHours() {
                   <Navigation className="w-4 h-4" /> Get Directions
                 </Link>
               </Button>
-              <Button asChild variant="secondary" className="rounded-full h-14 px-8 text-lg w-full sm:w-auto bg-background border hover:bg-muted transition-all">
+              <Button asChild variant="outline" className="rounded-full h-14 px-8 text-lg w-full sm:w-auto border-2 text-white hover:text-white hover:bg-muted transition-all">
                 <Link href="tel:+16265371355" className="flex items-center gap-2">
                   <Phone className="w-4 h-4" /> Call Now
                 </Link>
